@@ -14,12 +14,13 @@ library(plyr)
 library(httr)
 
 # 1. Grab tweets
+# (Create account with twitter to access pulls first)
 
-twitter_api_key <- "SC24VlSCLjh5QPUHsrCTWtt3v"
-api_key_secret <- "PC2z3tO6qzGeUl5FRiRIUmMVd3Lihr595cz5DYWo8DM2sj1XLk"
-bearer_token <- "AAAAAAAAAAAAAAAAAAAAAOC2HwEAAAAAG3uACJmmitROVISjhGyVop4N25E%3Dvx1HRg6bDJaO15WnJ9vv0nxHkNCzeCvQVrXdJyinrpxC03mNOj"
-access_token <- "1406530568-IyY0UxsFb3Tl9MXKOJPYkdELxqOIJBMqEQtUY76"
-acess_token_secret <- "PStY9FqlaN8Odk1sNQLcmxlkLMUhuIw2ydbqdBgEsy4Qp"
+twitter_api_key <- "your_twitter_api_key"
+api_key_secret <- "your_api_key_secret"
+bearer_token <- "Your_bearer_token"
+access_token <- "your_access_token"
+acess_token_secret <- "you_access_token_secret"
 
 create_token(app= "natehawk2", consumer_key = twitter_api_key, consumer_secret = api_key_secret,
              access_token = access_token, access_secret = acess_token_secret)
